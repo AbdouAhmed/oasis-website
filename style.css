@@ -1,0 +1,324 @@
+/* --- Khotoot Google (Elegant & Modern) --- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* --- Tandeef w Alwan Asaseya --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FDFBF7; 
+    color: #3A3A3A; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+h1, h2, h3, .logo {
+    font-family: 'Playfair Display', serif; 
+    color: #1A2B34; 
+}
+
+/* --- Header & Navigation --- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    background-color: #1A2B34; 
+    color: #FDFBF7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+.logo {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #E3B069; 
+    letter-spacing: 1px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #FDFBF7;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05rem;
+    transition: color 0.3s, transform 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header nav ul li a:hover {
+    color: #E3B069; 
+}
+
+/* --- Raqm El Telefon Fel Header --- */
+.header-phone a {
+    color: #E3B069;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: 2px solid #E3B069;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.header-phone a:hover {
+    background-color: #E3B069;
+    color: #1A2B34;
+}
+
+/* --- Hero Section --- */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+
+.hero-content p {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    font-weight: 300;
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+
+/* --- Buttons --- */
+.btn {
+    background-color: #C67A53; 
+    color: white;
+    padding: 14px 38px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 30px; 
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.4s ease;
+    display: inline-block;
+    border: 2px solid #C67A53;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #C67A53; 
+}
+
+/* --- Sections --- */
+.section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.section-subtitle {
+    max-width: 750px;
+    margin: 0 auto 60px auto;
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #666666;
+}
+
+/* --- Cards --- */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden; 
+    box-shadow: 0 15px 35px rgba(26, 43, 52, 0.08); 
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    text-align: left;
+}
+
+.card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(26, 43, 52, 0.15); 
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 35px;
+}
+
+.card-content h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #1A2B34;
+}
+
+.card-content p {
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+/* --- Zorar WhatsApp El 3ayem --- */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366; 
+    color: #FFF;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(37, 211, 102, 0.3);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 12px 25px rgba(37, 211, 102, 0.5);
+}
+
+.whatsapp-icon {
+    width: 35px;
+    height: 35px;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #1A2B34;
+    color: #FDFBF7;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+}
+
+/* --- Page Transition (Na2la ben el safa7at) --- */
+body {
+    animation: transitionIn 0.8s ease-out;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Tazafeet lel nav links 3ashan t-animate lamma tdoos 3aleha */
+header nav ul li a {
+    position: relative;
+}
+
+header nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #E3B069;
+    transition: width 0.3s ease;
+}
+
+header nav ul li a:hover::after {
+    width: 100%;
+}
+
+
+/* =======================================================
+   Responsive Design (Tasmeem El Mobile w El Tablets)
+   ======================================================= */
+
+@media (max-width: 900px) {
+    /* Header w Menu */
+    header {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* Hero Section (Awel saf7a) */
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+        padding: 0 15px;
+    }
+
+    /* Sections w Masafat */
+    .section {
+        padding: 60px 15px;
+    }
+    
+    .section-title {
+        font-size: 2.2rem;
+    }
+
+    /* Cards (El Koroote) */
+    .card {
+        width: 100% !important; /* Yemla el shasha kolaha */
+        flex-direction: column !important; /* Sora ta7taha el klam */
+    }
+    
+    .card img {
+        width: 100% !important;
+        height: 250px !important; /* Tas3'er tool el sora */
+    }
+    
+    .card-content {
+        width: 100% !important;
+        padding: 25px !important;
+    }
+
+    /* Zorar El 7agz */
+    .card-content div {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
