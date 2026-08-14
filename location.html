@@ -3,64 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Location - Boutique Hotel</title>
+    <meta name="description" content="Find your way to the Oasis Retreat in the heart of the Egyptian Bahariya Oasis.">
+    <title>Location - Oasis Retreat</title>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Hena rabatna el CSS 3ashan el shyyaka trg3 tany -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-   <!-- Header Navigation -->
-    <header>
+    <!-- Header Navigation -->
+    <header data-aos="fade-down" data-aos-duration="800">
         <div class="logo">Oasis Retreat</div>
         <nav>
             <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="rooms.html">Accommodation</a></li>
-    <li><a href="wellness.html">Spa & Pool</a></li>
-    <li><a href="activities.html">Safari</a></li>
-    <li><a href="experiences.html">Experiences</a></li> <!-- El saf7a el gdeda -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Accommodation</a></li>
+                <li><a href="wellness.html">Spa & Pool</a></li>
+                <li><a href="activities.html">Safari</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
         </nav>
-        <!-- Goz2 el telefon el gedid -->
         <div class="header-phone">
-            <!-- Ektab raqmak b-seeghet el dawla gowa el href, w ektabo zay ma t7eb yzhar barra -->
             <a href="tel:+201000000000">📞 +20 100 000 0000</a>
         </div>
     </header>
 
-        <div class="logo">Oasis Retreat</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="rooms.html">Accommodation</a></li>
-                <li><a href="wellness.html">Spa & Pool</a></li>
-                <li><a href="activities.html">Safari</a></li>
-            </ul>
-        </nav>
-        <!-- Goz2 el telefon el gedid -->
-        <div class="header-phone">
-            <!-- Ektab raqmak b-seeghet el dawla gowa el href, w ektabo zay ma t7eb yzhar barra -->
-            <a href="tel:+201000000000">📞 +20 100 000 0000</a>
-        </div>
-        <div class="logo">Oasis Retreat</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="rooms.html">Accommodation</a></li>
-                <li><a href="wellness.html">Spa & Pool</a></li>
-                <li><a href="activities.html">Safari</a></li>
-                 <li><a href="location.html">Location</a></li> 
-            </ul>
-        </nav>
+    <!-- Location Content -->
+    <section class="section" style="padding-top: 100px;">
+        <h1 class="section-title" data-aos="fade-up">How to Find Us</h1>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200" style="max-width: 800px; margin: 0 auto;">
+            Escape the noise of the city. We are located in the heart of the stunning Bahariya Oasis, surrounded by serene palm groves and endless golden dunes. 
+        </p>
 
-
-    <section class="page-section">
-        <h2>How to Find Us</h2>
-        <p>We are located in the heart of the city, just a 10-minute walk from the main train station and surrounded by top restaurants.</p>
-        
-        <!-- Mkan dummy l Khareetet Google l7d ma n-embed khareeta 7aqeqeya -->
-        <div style="width: 100%; max-width: 800px; height: 400px; background-color: #ddd; margin: 0 auto; display: flex; justify-content: center; align-items: center; border-radius: 10px;">
-            <p style="color: #666; font-size: 1.2rem;">[ https://maps.app.goo.gl/HaS5P5T5WZ6Wb6qN9]</p>
+        <!-- Google Maps Embed -->
+        <div style="max-width: 1000px; margin: 50px auto; border-radius: 15px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.1);" data-aos="zoom-in" data-aos-duration="1000">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113400.99963836376!2d28.841285250428574!3d28.344498335898083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x144b67876878b309%3A0x6e8e8e72c83c5011!2sBahariya%20Oasis!5e0!3m2!1sen!2seg!4v1716301234567!5m2!1sen!2seg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 
+    <!-- Footer -->
+    <footer data-aos="fade-in">
+        <p>&copy; 2026 Oasis Retreat, Bahariya Oasis, Egypt. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, offset: 100 });
+    </script>
 </body>
 </html>
